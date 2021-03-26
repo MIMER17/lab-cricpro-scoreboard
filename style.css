@@ -1,7 +1,117 @@
 /* Type your code here */
 
 
+
 /* change the font family and spacing as per your project font */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-size: medium;
+	background-attachment:cover;
+	background-position: bottom right;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+
+}
+
+.container{
+	width: 900px;
+	border: 2px;
+}
+
+.header{
+	padding-top: 100px;
+	padding-right: 100px;
+	display: flex;
+	justify-content: flex-end;
+	
+	font-family: 'Big Shoulders Stencil Text', cursive  !important;
+}
+.footer{
+	justify-content: flex-end;
+	letter-spacing: 2px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+
+table{
+	background-color: white;
+	width:700px;
+	max-height: 80vh;
+	
+}
+
+th,td{
+	padding: 6px;	
+	
+}
+
+
+table .one {
+	font-size: large;
+	background-color:orangered;
+	color: white;
+	
+}
+table .two {
+	font-size: medium;
+	font-weight: bold;
+	
+}
+
+table  .three, .four, .five, .six, .seven,.eight { 
+
+	font-size: medium;
+
+	
+	
+}
+
+table  .nine, .ten, .eleven { 
+
+	font-size: medium;
+	
+	
+}
+
+
+
+a:link{
+	color: #5E9CF1;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #5E9CF1;
+	text-decoration: none;
+}
+
+.subhead_txt{
+	
+	font-size: larger;
+	color: grey;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+
+.head_txt{
+	clear: right;
+	font-weight:bolder;
+	font-size: xx-large;
+	text-shadow: 2px 2px gray;
+	letter-spacing: 2px;
+	
+}
+
+/* change the font family and spacing as per your project font */
+
 .footer{
     display:flex;
     flex-direction: row;
@@ -12,5 +122,4 @@
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
-    
 }
